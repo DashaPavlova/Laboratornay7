@@ -17,28 +17,66 @@ namespace WindowsFormsApp6
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 frm3 = new Form3();
-            frm3.Show();
-            this.Hide();
-        }
-
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
+            var form = new FlappyBird.Form1(); 
+            form.Show();
+            
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 frm4 = new Form4();
-            frm4.Show();
-            this.Hide();
+            var form = new Arcanoid.Form1(); 
+            form.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var form = new testing.Form1(); 
+            form.Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            var form = new testing.Form1();
+            form.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var form = new AppCSharp.Form1();
+            form.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var form = new Snake.Form1();
+            form.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var form = new Game_1.FormGame15();
+            form.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            var form = new Game_picture.Form1();
+            form.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            var form = new Final.Form1();
+            form.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            var form = new Game_OSU.Form1();
+            form.Show();
         }
     }
 }
