@@ -3,6 +3,8 @@
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
+
+
 trigger:
 - master
 
@@ -10,7 +12,7 @@ pool:
   vmImage: 'VS2017-Win2016'
 
 variables:
-  solution: 'C:\Users\Дарья\source\repos\Laboratornay7\WindowsFormsApp6\WindowsFormsApp6.sln'
+  solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
