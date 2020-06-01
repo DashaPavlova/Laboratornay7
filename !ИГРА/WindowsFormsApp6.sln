@@ -15,13 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCSharp", "..\..\CSharpPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "..\..\CSharpProjects-master\Snake\Snake\Snake.csproj", "{F1BFEF59-3AD1-49C2-ABE9-1350D689C3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_1", "..\..\..\Все\Game_1\Game_1\Game_1.csproj", "{75BF8760-F13B-4965-9986-EE4F8F69F1B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_1", "..\Game_1\Game_1\Game_1.csproj", "{75BF8760-F13B-4965-9986-EE4F8F69F1B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_picture", "..\..\..\Все\Game_picture\Game_picture\Game_picture.csproj", "{8D55732A-ECC2-4B5E-AE2E-E8D82271515E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final", "..\..\..\Все\Final\Final\Final.csproj", "{0E61CBC6-2F55-45CA-AA0B-BFF1CFE89247}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_OSU", "..\..\..\Все\Game_OSU\Game_OSU\Game_OSU.csproj", "{4A8E4550-DF5B-4A85-95E2-D9F0C0F04865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_OSU", "..\Game_OSU\Game_OSU\Game_OSU.csproj", "{4A8E4550-DF5B-4A85-95E2-D9F0C0F04865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,14 +53,6 @@ Global
 		{75BF8760-F13B-4965-9986-EE4F8F69F1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75BF8760-F13B-4965-9986-EE4F8F69F1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75BF8760-F13B-4965-9986-EE4F8F69F1B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D55732A-ECC2-4B5E-AE2E-E8D82271515E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D55732A-ECC2-4B5E-AE2E-E8D82271515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D55732A-ECC2-4B5E-AE2E-E8D82271515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D55732A-ECC2-4B5E-AE2E-E8D82271515E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E61CBC6-2F55-45CA-AA0B-BFF1CFE89247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E61CBC6-2F55-45CA-AA0B-BFF1CFE89247}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E61CBC6-2F55-45CA-AA0B-BFF1CFE89247}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E61CBC6-2F55-45CA-AA0B-BFF1CFE89247}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A8E4550-DF5B-4A85-95E2-D9F0C0F04865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A8E4550-DF5B-4A85-95E2-D9F0C0F04865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8E4550-DF5B-4A85-95E2-D9F0C0F04865}.Release|Any CPU.ActiveCfg = Release|Any CPU

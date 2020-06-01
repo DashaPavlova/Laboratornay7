@@ -78,5 +78,11 @@ namespace WindowsFormsApp6
             var form = new Game_OSU.Form1();
             form.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            frm3.Show();
+        }
     }
 }
